@@ -1,235 +1,62 @@
-1488536663a:1:{s:10:"propos.htm";a:8:{s:8:"fileName";s:10:"propos.htm";s:7:"content";s:4529:"title = "A propos"
+1488556313a:1:{s:10:"propos.htm";a:9:{s:8:"fileName";s:10:"propos.htm";s:7:"content";s:2847:"title = "A propos"
 url = "/propos"
+layout = "default"
 is_hidden = 0
 ==
-<div class="jumbotron">
-    <div class="container">
-        {% content "welcome.htm" %}
-    </div>
-</div>
+<h4>L'association</h4>
+<p>Notre association est née de l'envie de proposer des sorties faciles d’accès pour les personnes à mobilité réduite et pour les jeunes d’esprit de plus de 75 ans en quête de découverte et de confort.
+Nous vérifions donc les conditions d'accès et d’accueil et nous proposons une solution de transport accompagné, si nécessaire, pour s'y rendre. Le tout dans un esprit de partage et de convivialité.
+La zone actuellement couverte est Toulouse métropole.
+</p>
 
-<div class="container">
+<h5>objectif</h5>
 
-    <div class="page-header">
-        <h2>Overview <small>Basic concepts</small></h2>
-    </div>
-    <p>
-        This page demonstrates the basic CMS features.
-        Usually each page built with October is a combination of a layout, page, partials and content blocks,
-        although in simple cases you can just use a page without anything else.
-    </p>
+<p> Proposer un nouveau service destiné aux seniors fragilisés ou touchés par une maladie ou un handicap afin de leur permettre de poursuivre une vie relationnelle et créative riche malgré l’apparition de gênes à la mobilité ou d’accident de la vie (décès d’un proche, déménagement…).</p>
 
-    <!-- Layouts -->
-    <h3>Layouts</h3>
-    <p class="lead">
-        <i class="icon-th-large"></i> &nbsp; Layouts define the page scaffold.
-    </p>
-    <p>
-        The layout file <code>layouts/default.htm</code> defines the page scaffold &mdash;
-        everything that repeats on each page, such as the HTML, HEAD and BODY tags, StyleSheet and JavaScript references.
-    </p>
-    <p>The page menu and footer in the Demo theme are defined in the layout as well.</p>
+<h5> Historique</h5>
 
-    <hr />
+<p> Association créée par 3 habitants de Toulouse Métropole le 19 septembre 2016 avec publication au Journal officiel le 1er octobre 2016. Domiciliée dans le quartier des Ponts-Jumeaux. Voir les statuts
+Début de l’activité : 1er janvier 2017 avec une première sortie à la Halle aux Grains pour le concert du Nouvel An par l’orchestre du Capitole. Voir les anciennes sorties
+Structure accompagnée dans son développement dans le cadre du parcours Adress (Toulouse Metropole, Caisse des Dépôts et Consignations et Mouvement régional associatif Occitanie)
+Mars 2017 : l’association reçoit le prix des Trophées de la vie locale du Crédit Agricole Toulouse Nord</p>
 
-    <!-- Pages -->
-    <h3>Pages</h3>
-    <p class="lead">
-        <i class="icon-copy"></i> &nbsp; Pages hold the content for each URL.
-    </p>
-    <p>
-        The page file <code>pages/home.htm</code> defines the page URL (<code>/</code> for this page) and the page content.
-        Pages are rendered inside layouts with this function that should be called in the layout code:
-    </p>
-    <pre>{{ "{% page %}" }}</pre>
-    <p>Using a layout for pages is optional &mdash; you can define everything right in the page file.</p>
+<h5>Qui somme-nous</h5>
+<p>Nous sommes des accompagnants expérimentés professionnels ou bénévoles de personnes âgées ou handicapées sélectionnés par l’association pour notre compétence et notre empathie.
+En parallèle à l’association, chaque indépendant ou structure partenaire propose des solutions professionnelles flexibles, conviviales et à prix compétitifs : 
+-	Transport accompagné de porte-à-porte
+-	Assistance informatique à domicile
+-	Accueil temporaire en cas d’urgence ou pour des vacances
+-	Aide administrative et suivi des solutions de maintien à domicile (en cas d’éloignement géographique ou d’indisponibilité de la famille)
+-	Animation à domicile
+-	Sorties à des concerts de musique classique avec transport inclus
+Le défi est d’apporter à chacun des participants le niveau d’attention qu’on souhaite pour nos propres parents ou proches.
+Contact : Caroline Lamorthe – 06 52 95 72 87 – sortiesadomicile@gmail.com
+Nous n’assurons pas de permanence dans un local mais nous vous rencontrons à l’occasion des sorties organisées. N’hésitez pas à nous appeler et à nous laisser vos coordonnées pour que nous puissions vous rappeler au plu </p>";s:5:"mtime";i:1488550276;s:6:"markup";s:2776:"<h4>L'association</h4>
+<p>Notre association est née de l'envie de proposer des sorties faciles d’accès pour les personnes à mobilité réduite et pour les jeunes d’esprit de plus de 75 ans en quête de découverte et de confort.
+Nous vérifions donc les conditions d'accès et d’accueil et nous proposons une solution de transport accompagné, si nécessaire, pour s'y rendre. Le tout dans un esprit de partage et de convivialité.
+La zone actuellement couverte est Toulouse métropole.
+</p>
 
-    <hr />
+<h5>objectif</h5>
 
-    <!-- Partials -->
-    <h3>Partials</h3>
-    <p class="lead">
-        <i class="icon-tags"></i> &nbsp; Partials contain reusable chunks of HTML markup.
-    </p>
-    <p>
-        Partials are chunks of HTML defined in separate files that can be included anywhere.
-        Partials are rendered with:
-    </p>
-    <pre>{{ "{% partial \"partial-name\" %}" }}</pre>
-    <p>You may place partials inside folders too. In this example we placed the footer content to the <code>partials/site/footer.htm</code> partial.</p>
-    <pre>{{ "{% partial \"site/footer\" %}" }}</pre>
-    <p>Partials can be used inside pages, layouts or other partials.</p>
+<p> Proposer un nouveau service destiné aux seniors fragilisés ou touchés par une maladie ou un handicap afin de leur permettre de poursuivre une vie relationnelle et créative riche malgré l’apparition de gênes à la mobilité ou d’accident de la vie (décès d’un proche, déménagement…).</p>
 
-    <hr />
+<h5> Historique</h5>
 
-    <!-- Content blocks -->
-    <h3>Content blocks</h3>
-    <p class="lead">
-        <i class="icon-font"></i> &nbsp; Content blocks are text or HTML blocks that can be edited separately from the page or layout.
-    </p>
-    <p>
-        The introductory text used on this page is defined in the <code>content/welcome.htm</code> file.
-        Content blocks are defined and rendered with:
-        <pre>{{ "{% content \"content-name.htm\" %}" }}</pre>
-    </p>
+<p> Association créée par 3 habitants de Toulouse Métropole le 19 septembre 2016 avec publication au Journal officiel le 1er octobre 2016. Domiciliée dans le quartier des Ponts-Jumeaux. Voir les statuts
+Début de l’activité : 1er janvier 2017 avec une première sortie à la Halle aux Grains pour le concert du Nouvel An par l’orchestre du Capitole. Voir les anciennes sorties
+Structure accompagnée dans son développement dans le cadre du parcours Adress (Toulouse Metropole, Caisse des Dépôts et Consignations et Mouvement régional associatif Occitanie)
+Mars 2017 : l’association reçoit le prix des Trophées de la vie locale du Crédit Agricole Toulouse Nord</p>
 
-    <hr />
-
-    <!-- Placeholders -->
-    <h3>Placeholders</h3>
-    <p class="lead">
-        <i class="icon-bookmark"></i> &nbsp; Placeholders allow pages to inject content to a layout.
-    </p>
-    <p>
-        The common use is injecting page-specific links to StyleSheet or JavaScript files to the HEAD tag defined in the layout.
-        Placeholders are defined in the layout file and they have names so that they can be referred in the page.
-        Example:
-    </p>
-    <div class="row">
-        <div class="col-md-6">
-            <p>Layout file:</p>
-            <pre>{% content "placeholder/layout.txt" %}</pre>
-        </div>
-        <div class="col-md-6">
-            <p>Page file:</p>
-            <pre>{% content "placeholder/page.txt" %}</pre>
-        </div>
-    </div>
-
-    <hr />
-
-    <!-- Assets -->
-    <h3>Assets</h3>
-    <p class="lead">
-        <i class="icon-picture"></i> &nbsp; Assets are resource files like images and stylesheets.
-    </p>
-    <p>This theme stores its asset files (JavaScript, StyleSheet, images, fonts, etc) in the <code>themes/demo/assets</code> directory. This theme is also packaged with these useful 3rd party tools:</p>
-    <ul class="list-inline">
-        <li><a target="_blank" href="http://getbootstrap.com/">Twitter Bootstrap</a></li>
-        <li><a target="_blank" href="http://fontawesome.io/3.2.1/">Font Awesome</a></li>
-        <li><a target="_blank" href="http://www.google.com/fonts/specimen/Lato">Lato webfont</a></li>
-    </ul>
-    <p>You might prefer to remove them for your website implementation.</p>
-
-    <br />
-
-    <div class="text-center">
-        <p><a href="{{ 'ajax'|page }}" class="btn btn-lg btn-default">Continue to AJAX framework</a></p>
-    </div>
-
-</div>";s:5:"mtime";i:1488535299;s:6:"markup";s:4477:"<div class="jumbotron">
-    <div class="container">
-        {% content "welcome.htm" %}
-    </div>
-</div>
-
-<div class="container">
-
-    <div class="page-header">
-        <h2>Overview <small>Basic concepts</small></h2>
-    </div>
-    <p>
-        This page demonstrates the basic CMS features.
-        Usually each page built with October is a combination of a layout, page, partials and content blocks,
-        although in simple cases you can just use a page without anything else.
-    </p>
-
-    <!-- Layouts -->
-    <h3>Layouts</h3>
-    <p class="lead">
-        <i class="icon-th-large"></i> &nbsp; Layouts define the page scaffold.
-    </p>
-    <p>
-        The layout file <code>layouts/default.htm</code> defines the page scaffold &mdash;
-        everything that repeats on each page, such as the HTML, HEAD and BODY tags, StyleSheet and JavaScript references.
-    </p>
-    <p>The page menu and footer in the Demo theme are defined in the layout as well.</p>
-
-    <hr />
-
-    <!-- Pages -->
-    <h3>Pages</h3>
-    <p class="lead">
-        <i class="icon-copy"></i> &nbsp; Pages hold the content for each URL.
-    </p>
-    <p>
-        The page file <code>pages/home.htm</code> defines the page URL (<code>/</code> for this page) and the page content.
-        Pages are rendered inside layouts with this function that should be called in the layout code:
-    </p>
-    <pre>{{ "{% page %}" }}</pre>
-    <p>Using a layout for pages is optional &mdash; you can define everything right in the page file.</p>
-
-    <hr />
-
-    <!-- Partials -->
-    <h3>Partials</h3>
-    <p class="lead">
-        <i class="icon-tags"></i> &nbsp; Partials contain reusable chunks of HTML markup.
-    </p>
-    <p>
-        Partials are chunks of HTML defined in separate files that can be included anywhere.
-        Partials are rendered with:
-    </p>
-    <pre>{{ "{% partial \"partial-name\" %}" }}</pre>
-    <p>You may place partials inside folders too. In this example we placed the footer content to the <code>partials/site/footer.htm</code> partial.</p>
-    <pre>{{ "{% partial \"site/footer\" %}" }}</pre>
-    <p>Partials can be used inside pages, layouts or other partials.</p>
-
-    <hr />
-
-    <!-- Content blocks -->
-    <h3>Content blocks</h3>
-    <p class="lead">
-        <i class="icon-font"></i> &nbsp; Content blocks are text or HTML blocks that can be edited separately from the page or layout.
-    </p>
-    <p>
-        The introductory text used on this page is defined in the <code>content/welcome.htm</code> file.
-        Content blocks are defined and rendered with:
-        <pre>{{ "{% content \"content-name.htm\" %}" }}</pre>
-    </p>
-
-    <hr />
-
-    <!-- Placeholders -->
-    <h3>Placeholders</h3>
-    <p class="lead">
-        <i class="icon-bookmark"></i> &nbsp; Placeholders allow pages to inject content to a layout.
-    </p>
-    <p>
-        The common use is injecting page-specific links to StyleSheet or JavaScript files to the HEAD tag defined in the layout.
-        Placeholders are defined in the layout file and they have names so that they can be referred in the page.
-        Example:
-    </p>
-    <div class="row">
-        <div class="col-md-6">
-            <p>Layout file:</p>
-            <pre>{% content "placeholder/layout.txt" %}</pre>
-        </div>
-        <div class="col-md-6">
-            <p>Page file:</p>
-            <pre>{% content "placeholder/page.txt" %}</pre>
-        </div>
-    </div>
-
-    <hr />
-
-    <!-- Assets -->
-    <h3>Assets</h3>
-    <p class="lead">
-        <i class="icon-picture"></i> &nbsp; Assets are resource files like images and stylesheets.
-    </p>
-    <p>This theme stores its asset files (JavaScript, StyleSheet, images, fonts, etc) in the <code>themes/demo/assets</code> directory. This theme is also packaged with these useful 3rd party tools:</p>
-    <ul class="list-inline">
-        <li><a target="_blank" href="http://getbootstrap.com/">Twitter Bootstrap</a></li>
-        <li><a target="_blank" href="http://fontawesome.io/3.2.1/">Font Awesome</a></li>
-        <li><a target="_blank" href="http://www.google.com/fonts/specimen/Lato">Lato webfont</a></li>
-    </ul>
-    <p>You might prefer to remove them for your website implementation.</p>
-
-    <br />
-
-    <div class="text-center">
-        <p><a href="{{ 'ajax'|page }}" class="btn btn-lg btn-default">Continue to AJAX framework</a></p>
-    </div>
-
-</div>";s:4:"code";N;s:5:"title";s:8:"A propos";s:3:"url";s:7:"/propos";s:9:"is_hidden";s:1:"0";}}
+<h5>Qui somme-nous</h5>
+<p>Nous sommes des accompagnants expérimentés professionnels ou bénévoles de personnes âgées ou handicapées sélectionnés par l’association pour notre compétence et notre empathie.
+En parallèle à l’association, chaque indépendant ou structure partenaire propose des solutions professionnelles flexibles, conviviales et à prix compétitifs : 
+-	Transport accompagné de porte-à-porte
+-	Assistance informatique à domicile
+-	Accueil temporaire en cas d’urgence ou pour des vacances
+-	Aide administrative et suivi des solutions de maintien à domicile (en cas d’éloignement géographique ou d’indisponibilité de la famille)
+-	Animation à domicile
+-	Sorties à des concerts de musique classique avec transport inclus
+Le défi est d’apporter à chacun des participants le niveau d’attention qu’on souhaite pour nos propres parents ou proches.
+Contact : Caroline Lamorthe – 06 52 95 72 87 – sortiesadomicile@gmail.com
+Nous n’assurons pas de permanence dans un local mais nous vous rencontrons à l’occasion des sorties organisées. N’hésitez pas à nous appeler et à nous laisser vos coordonnées pour que nous puissions vous rappeler au plu </p>";s:4:"code";N;s:5:"title";s:8:"A propos";s:3:"url";s:7:"/propos";s:6:"layout";s:7:"default";s:9:"is_hidden";s:1:"0";}}
