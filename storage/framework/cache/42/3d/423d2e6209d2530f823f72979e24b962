@@ -1,11 +1,10 @@
-1489047659a:1:{s:11:"default.htm";a:6:{s:8:"fileName";s:11:"default.htm";s:7:"content";s:1442:"description = "Default layout"
+1489055476a:1:{s:11:"default.htm";a:6:{s:8:"fileName";s:11:"default.htm";s:7:"content";s:1334:"description = "Default layout"
 ==
 <!DOCTYPE html>
 <html>
 <head>
     <meta charset="utf-8">
     <title>October CMS - {{ this.page.title }}</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.9/semantic.min.css">
     <meta name="description" content="{{ this.page.meta_description }}">
     <meta name="title" content="{{ this.page.meta_title }}">
     <meta name="author" content="OctoberCMS">
@@ -27,6 +26,7 @@
     <section id="layout-content">
         {% page %}
     </section>
+
 
     <!-- Footer -->
     <footer id="layout-footer">
@@ -41,12 +41,11 @@
     {% scripts %}
 
 </body>
-</html>";s:5:"mtime";i:1488538684;s:6:"markup";s:1406:"<!DOCTYPE html>
+</html>";s:5:"mtime";i:1489053929;s:6:"markup";s:1298:"<!DOCTYPE html>
 <html>
 <head>
     <meta charset="utf-8">
     <title>October CMS - {{ this.page.title }}</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.9/semantic.min.css">
     <meta name="description" content="{{ this.page.meta_description }}">
     <meta name="title" content="{{ this.page.meta_title }}">
     <meta name="author" content="OctoberCMS">
@@ -68,6 +67,7 @@
     <section id="layout-content">
         {% page %}
     </section>
+
 
     <!-- Footer -->
     <footer id="layout-footer">

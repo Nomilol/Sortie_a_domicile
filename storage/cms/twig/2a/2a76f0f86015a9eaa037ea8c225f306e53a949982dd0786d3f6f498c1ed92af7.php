@@ -24,55 +24,55 @@ class __TwigTemplate_5e0962fb9b4f71351094e81d2c509ecf394d377480d1dd152c5c571a4d0
         // line 5
         echo twig_escape_filter($this->env, $this->getAttribute($this->getAttribute(($context["this"] ?? null), "page", array()), "title", array()), "html", null, true);
         echo "</title>
-    <link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.9/semantic.min.css\">
     <meta name=\"description\" content=\"";
-        // line 7
+        // line 6
         echo twig_escape_filter($this->env, $this->getAttribute($this->getAttribute(($context["this"] ?? null), "page", array()), "meta_description", array()), "html", null, true);
         echo "\">
     <meta name=\"title\" content=\"";
-        // line 8
+        // line 7
         echo twig_escape_filter($this->env, $this->getAttribute($this->getAttribute(($context["this"] ?? null), "page", array()), "meta_title", array()), "html", null, true);
         echo "\">
     <meta name=\"author\" content=\"OctoberCMS\">
     <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">
     <meta name=\"generator\" content=\"OctoberCMS\">
     <link rel=\"icon\" type=\"image/png\" href=\"";
-        // line 12
+        // line 11
         echo $this->env->getExtension('Cms\Twig\Extension')->themeFilter("assets/images/october.png");
         echo "\">
     <link href=\"";
-        // line 13
+        // line 12
         echo $this->env->getExtension('Cms\Twig\Extension')->themeFilter("assets/css/vendor.css");
         echo "\" rel=\"stylesheet\">
     <link href=\"";
-        // line 14
+        // line 13
         echo $this->env->getExtension('Cms\Twig\Extension')->themeFilter("assets/css/theme.css");
         echo "\" rel=\"stylesheet\">
     ";
-        // line 15
+        // line 14
         echo $this->env->getExtension('CMS')->assetsFunction('css');
         echo $this->env->getExtension('CMS')->displayBlock('styles');
-        // line 16
+        // line 15
         echo "</head>
 <body>
 
     <!-- Header -->
     <header id=\"layout-header\">
         ";
-        // line 21
+        // line 20
         $context['__cms_partial_params'] = [];
         echo $this->env->getExtension('CMS')->partialFunction("site/header"        , $context['__cms_partial_params']        );
         unset($context['__cms_partial_params']);
-        // line 22
+        // line 21
         echo "    </header>
 
     <!-- Content -->
     <section id=\"layout-content\">
         ";
-        // line 26
+        // line 25
         echo $this->env->getExtension('CMS')->pageFunction();
-        // line 27
+        // line 26
         echo "    </section>
+
 
     <!-- Footer -->
     <footer id=\"layout-footer\">
@@ -127,7 +127,7 @@ class __TwigTemplate_5e0962fb9b4f71351094e81d2c509ecf394d377480d1dd152c5c571a4d0
 
     public function getDebugInfo()
     {
-        return array (  113 => 40,  109 => 39,  102 => 38,  98 => 37,  94 => 36,  90 => 35,  85 => 32,  81 => 31,  75 => 27,  73 => 26,  67 => 22,  63 => 21,  56 => 16,  53 => 15,  49 => 14,  45 => 13,  41 => 12,  34 => 8,  30 => 7,  25 => 5,  19 => 1,);
+        return array (  113 => 40,  109 => 39,  102 => 38,  98 => 37,  94 => 36,  90 => 35,  85 => 32,  81 => 31,  74 => 26,  72 => 25,  66 => 21,  62 => 20,  55 => 15,  52 => 14,  48 => 13,  44 => 12,  40 => 11,  33 => 7,  29 => 6,  25 => 5,  19 => 1,);
     }
 
     /** @deprecated since 1.27 (to be removed in 2.0). Use getSourceContext() instead */
@@ -145,7 +145,6 @@ class __TwigTemplate_5e0962fb9b4f71351094e81d2c509ecf394d377480d1dd152c5c571a4d0
 <head>
     <meta charset=\"utf-8\">
     <title>October CMS - {{ this.page.title }}</title>
-    <link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.9/semantic.min.css\">
     <meta name=\"description\" content=\"{{ this.page.meta_description }}\">
     <meta name=\"title\" content=\"{{ this.page.meta_title }}\">
     <meta name=\"author\" content=\"OctoberCMS\">
@@ -167,6 +166,7 @@ class __TwigTemplate_5e0962fb9b4f71351094e81d2c509ecf394d377480d1dd152c5c571a4d0
     <section id=\"layout-content\">
         {% page %}
     </section>
+
 
     <!-- Footer -->
     <footer id=\"layout-footer\">
