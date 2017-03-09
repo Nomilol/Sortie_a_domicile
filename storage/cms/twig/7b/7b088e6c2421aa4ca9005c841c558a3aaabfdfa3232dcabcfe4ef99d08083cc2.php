@@ -25,13 +25,8 @@ class __TwigTemplate_5986fd2dfd3616da1571b7f59831964eefee8aaa7ddbcfd4f9fde949edd
 <body>
 
 
-    ";
-        // line 10
-        $context['__cms_partial_params'] = [];
-        echo $this->env->getExtension('CMS')->partialFunction("event"        , $context['__cms_partial_params']        );
-        unset($context['__cms_partial_params']);
-        // line 11
-        echo "</body>
+  
+</body>
 </html>";
     }
 
@@ -40,14 +35,9 @@ class __TwigTemplate_5986fd2dfd3616da1571b7f59831964eefee8aaa7ddbcfd4f9fde949edd
         return "/home/axell/projetSAD/install-master/themes/demo/layouts/layout.htm";
     }
 
-    public function isTraitable()
-    {
-        return false;
-    }
-
     public function getDebugInfo()
     {
-        return array (  34 => 11,  30 => 10,  19 => 1,);
+        return array (  19 => 1,);
     }
 
     /** @deprecated since 1.27 (to be removed in 2.0). Use getSourceContext() instead */
@@ -69,7 +59,7 @@ class __TwigTemplate_5986fd2dfd3616da1571b7f59831964eefee8aaa7ddbcfd4f9fde949edd
 <body>
 
 
-    {% partial 'event'%}
+  
 </body>
 </html>", "/home/axell/projetSAD/install-master/themes/demo/layouts/layout.htm", "");
     }

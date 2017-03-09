@@ -1,4 +1,4 @@
-1489059093a:1:{s:10:"events.htm";a:7:{s:8:"fileName";s:10:"events.htm";s:7:"content";s:3791:"[viewBag]
+1489070552a:1:{s:10:"events.htm";a:7:{s:8:"fileName";s:10:"events.htm";s:7:"content";s:3789:"[viewBag]
 title = "events"
 url = "/events"
 is_hidden = 0
@@ -76,8 +76,7 @@ navigation_hidden = 0
 			<td style="background-color: rgb(0, 151, 137);">2 euros (réservé aux personnes à mobilité réduite ou APA)</td>
 		</tr>
 	</tbody>
-</table>
-";s:5:"mtime";i:1489058490;s:6:"markup";s:3707:"<p>
+</table>";s:5:"mtime";i:1489064994;s:6:"markup";s:3707:"<p>
 	<br>
 </p>
 
