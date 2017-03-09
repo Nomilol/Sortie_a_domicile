@@ -1,7 +1,16 @@
-1489055826a:1:{s:10:"events.htm";a:9:{s:8:"fileName";s:10:"events.htm";s:7:"content";s:2385:"title = "events"
+1489058119a:1:{s:10:"events.htm";a:10:{s:8:"fileName";s:10:"events.htm";s:7:"content";s:2378:"title = "events"
 url = "/events"
 layout = "default"
 is_hidden = 0
+
+[map]
+map = 1
+showOnlyObject = 0
+fieldId = "map"
+height = "400px"
+latitude = 0
+longitude = 0
+zoom = 3
 ==
 <div class="row">
   <div class="col-md-12">
@@ -28,39 +37,41 @@ is_hidden = 0
         <abbr title="Phone">P:</abbr> (123) 456-7890
     </address></div>
     <div class="col-md-4">
-    <h2 class="text-right-map">Map :</h2>
-  </div>
+        <h2 class="text-right-map">Map :</h2>
+    </div>
 </div>
 <div class="row">
     <div class="col-md-4">
-       <form class="form-horizontal">
-          <div class="form-group">
-              <label for="nom">Nom</label>
-              <input type="text" class="form-control" id="exampleInputName2" placeholder="Jane Doe">
-          </div>
-          <div class="form-group">
-              <label for="Prenom">Prenom</label>
-              <input type="text" class="form-control" id="exampleInputName2" placeholder="Jane Doe">
-          </div>
-          <div class="form-group">
-            <label for="email">Email</label>
-            <input type="email" class="form-control" id="exampleInputEmail2" placeholder="jane.doe@example.com">
-        </div>
-        <div class="form-group">
-          <label for="tel">Telephone</label>
-          <input type="tel" class="form-control" id="exampleInputName2" placeholder="Jane Doe">
+     <form class="form-horizontal">
+      <div class="form-group">
+          <label for="nom">Nom</label>
+          <input type="text" class="form-control" id="exampleInputName2" placeholder="Jane Doe">
       </div>
       <div class="form-group">
-          <label for="cp">Code Postale</label>
-          <input type="number" class="form-control" id="exampleInputName2" placeholder="Jane Doe">
+          <label for="Prenom">Prenom</label>
+          <input type="text" class="form-control" id="exampleInputName2" placeholder="Jane Doe">
       </div>
-      <button type="submit" class="btn btn-default">Pré inscription</button>
-  </form>
+      <div class="form-group">
+        <label for="email">Email</label>
+        <input type="email" class="form-control" id="exampleInputEmail2" placeholder="jane.doe@example.com">
+    </div>
+    <div class="form-group">
+      <label for="tel">Telephone</label>
+      <input type="tel" class="form-control" id="exampleInputName2" placeholder="Jane Doe">
+  </div>
+  <div class="form-group">
+      <label for="cp">Code Postale</label>
+      <input type="number" class="form-control" id="exampleInputName2" placeholder="Jane Doe">
+  </div>
+  <button type="submit" class="btn btn-default">Pré inscription</button>
+</form>
 </div>
 <div class="col-md-6">
-    <img id="mapfake" src="http://www.shantee.net/wp-content/uploads/2016/06/google-maps.jpg" alt="">
+    <div class="map">
+        {% component 'map' %}
+    </div>
 </div>
-</div>";s:5:"mtime";i:1489055212;s:6:"markup";s:2311:"<div class="row">
+</div>";s:5:"mtime";i:1489057492;s:6:"markup";s:2192:"<div class="row">
   <div class="col-md-12">
       <h1 class="text-center">Nom Evenement</h1>
   </div>
@@ -85,36 +96,38 @@ is_hidden = 0
         <abbr title="Phone">P:</abbr> (123) 456-7890
     </address></div>
     <div class="col-md-4">
-    <h2 class="text-right-map">Map :</h2>
-  </div>
+        <h2 class="text-right-map">Map :</h2>
+    </div>
 </div>
 <div class="row">
     <div class="col-md-4">
-       <form class="form-horizontal">
-          <div class="form-group">
-              <label for="nom">Nom</label>
-              <input type="text" class="form-control" id="exampleInputName2" placeholder="Jane Doe">
-          </div>
-          <div class="form-group">
-              <label for="Prenom">Prenom</label>
-              <input type="text" class="form-control" id="exampleInputName2" placeholder="Jane Doe">
-          </div>
-          <div class="form-group">
-            <label for="email">Email</label>
-            <input type="email" class="form-control" id="exampleInputEmail2" placeholder="jane.doe@example.com">
-        </div>
-        <div class="form-group">
-          <label for="tel">Telephone</label>
-          <input type="tel" class="form-control" id="exampleInputName2" placeholder="Jane Doe">
+     <form class="form-horizontal">
+      <div class="form-group">
+          <label for="nom">Nom</label>
+          <input type="text" class="form-control" id="exampleInputName2" placeholder="Jane Doe">
       </div>
       <div class="form-group">
-          <label for="cp">Code Postale</label>
-          <input type="number" class="form-control" id="exampleInputName2" placeholder="Jane Doe">
+          <label for="Prenom">Prenom</label>
+          <input type="text" class="form-control" id="exampleInputName2" placeholder="Jane Doe">
       </div>
-      <button type="submit" class="btn btn-default">Pré inscription</button>
-  </form>
+      <div class="form-group">
+        <label for="email">Email</label>
+        <input type="email" class="form-control" id="exampleInputEmail2" placeholder="jane.doe@example.com">
+    </div>
+    <div class="form-group">
+      <label for="tel">Telephone</label>
+      <input type="tel" class="form-control" id="exampleInputName2" placeholder="Jane Doe">
+  </div>
+  <div class="form-group">
+      <label for="cp">Code Postale</label>
+      <input type="number" class="form-control" id="exampleInputName2" placeholder="Jane Doe">
+  </div>
+  <button type="submit" class="btn btn-default">Pré inscription</button>
+</form>
 </div>
 <div class="col-md-6">
-    <img id="mapfake" src="http://www.shantee.net/wp-content/uploads/2016/06/google-maps.jpg" alt="">
+    <div class="map">
+        {% component 'map' %}
+    </div>
 </div>
-</div>";s:4:"code";N;s:5:"title";s:6:"events";s:3:"url";s:7:"/events";s:6:"layout";s:7:"default";s:9:"is_hidden";s:1:"0";}}
+</div>";s:4:"code";N;s:5:"title";s:6:"events";s:3:"url";s:7:"/events";s:6:"layout";s:7:"default";s:9:"is_hidden";s:1:"0";s:3:"map";a:7:{s:3:"map";s:1:"1";s:14:"showOnlyObject";s:1:"0";s:7:"fieldId";s:3:"map";s:6:"height";s:5:"400px";s:8:"latitude";s:1:"0";s:9:"longitude";s:1:"0";s:4:"zoom";s:1:"3";}}}

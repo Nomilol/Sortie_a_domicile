@@ -41,37 +41,44 @@ class __TwigTemplate_87bc3ebdb84d687595b96f5a0f137de8f29d6b94dbb71d5ea08f6f01d70
         <abbr title=\"Phone\">P:</abbr> (123) 456-7890
     </address></div>
     <div class=\"col-md-4\">
-    <h2 class=\"text-right-map\">Map :</h2>
-  </div>
+        <h2 class=\"text-right-map\">Map :</h2>
+    </div>
 </div>
 <div class=\"row\">
     <div class=\"col-md-4\">
-       <form class=\"form-horizontal\">
-          <div class=\"form-group\">
-              <label for=\"nom\">Nom</label>
-              <input type=\"text\" class=\"form-control\" id=\"exampleInputName2\" placeholder=\"Jane Doe\">
-          </div>
-          <div class=\"form-group\">
-              <label for=\"Prenom\">Prenom</label>
-              <input type=\"text\" class=\"form-control\" id=\"exampleInputName2\" placeholder=\"Jane Doe\">
-          </div>
-          <div class=\"form-group\">
-            <label for=\"email\">Email</label>
-            <input type=\"email\" class=\"form-control\" id=\"exampleInputEmail2\" placeholder=\"jane.doe@example.com\">
-        </div>
-        <div class=\"form-group\">
-          <label for=\"tel\">Telephone</label>
-          <input type=\"tel\" class=\"form-control\" id=\"exampleInputName2\" placeholder=\"Jane Doe\">
+     <form class=\"form-horizontal\">
+      <div class=\"form-group\">
+          <label for=\"nom\">Nom</label>
+          <input type=\"text\" class=\"form-control\" id=\"exampleInputName2\" placeholder=\"Jane Doe\">
       </div>
       <div class=\"form-group\">
-          <label for=\"cp\">Code Postale</label>
-          <input type=\"number\" class=\"form-control\" id=\"exampleInputName2\" placeholder=\"Jane Doe\">
+          <label for=\"Prenom\">Prenom</label>
+          <input type=\"text\" class=\"form-control\" id=\"exampleInputName2\" placeholder=\"Jane Doe\">
       </div>
-      <button type=\"submit\" class=\"btn btn-default\">Pré inscription</button>
-  </form>
+      <div class=\"form-group\">
+        <label for=\"email\">Email</label>
+        <input type=\"email\" class=\"form-control\" id=\"exampleInputEmail2\" placeholder=\"jane.doe@example.com\">
+    </div>
+    <div class=\"form-group\">
+      <label for=\"tel\">Telephone</label>
+      <input type=\"tel\" class=\"form-control\" id=\"exampleInputName2\" placeholder=\"Jane Doe\">
+  </div>
+  <div class=\"form-group\">
+      <label for=\"cp\">Code Postale</label>
+      <input type=\"number\" class=\"form-control\" id=\"exampleInputName2\" placeholder=\"Jane Doe\">
+  </div>
+  <button type=\"submit\" class=\"btn btn-default\">Pré inscription</button>
+</form>
 </div>
 <div class=\"col-md-6\">
-    <img id=\"mapfake\" src=\"http://www.shantee.net/wp-content/uploads/2016/06/google-maps.jpg\" alt=\"\">
+    <div class=\"map\">
+        ";
+        // line 57
+        $context['__cms_component_params'] = [];
+        echo $this->env->getExtension('CMS')->componentFunction("map"        , $context['__cms_component_params']        );
+        unset($context['__cms_component_params']);
+        // line 58
+        echo "    </div>
 </div>
 </div>";
     }
@@ -81,9 +88,14 @@ class __TwigTemplate_87bc3ebdb84d687595b96f5a0f137de8f29d6b94dbb71d5ea08f6f01d70
         return "/home/simplon/exos/install-master/themes/demo/pages/events.htm";
     }
 
+    public function isTraitable()
+    {
+        return false;
+    }
+
     public function getDebugInfo()
     {
-        return array (  19 => 1,);
+        return array (  81 => 58,  77 => 57,  19 => 1,);
     }
 
     /** @deprecated since 1.27 (to be removed in 2.0). Use getSourceContext() instead */
@@ -121,37 +133,39 @@ class __TwigTemplate_87bc3ebdb84d687595b96f5a0f137de8f29d6b94dbb71d5ea08f6f01d70
         <abbr title=\"Phone\">P:</abbr> (123) 456-7890
     </address></div>
     <div class=\"col-md-4\">
-    <h2 class=\"text-right-map\">Map :</h2>
-  </div>
+        <h2 class=\"text-right-map\">Map :</h2>
+    </div>
 </div>
 <div class=\"row\">
     <div class=\"col-md-4\">
-       <form class=\"form-horizontal\">
-          <div class=\"form-group\">
-              <label for=\"nom\">Nom</label>
-              <input type=\"text\" class=\"form-control\" id=\"exampleInputName2\" placeholder=\"Jane Doe\">
-          </div>
-          <div class=\"form-group\">
-              <label for=\"Prenom\">Prenom</label>
-              <input type=\"text\" class=\"form-control\" id=\"exampleInputName2\" placeholder=\"Jane Doe\">
-          </div>
-          <div class=\"form-group\">
-            <label for=\"email\">Email</label>
-            <input type=\"email\" class=\"form-control\" id=\"exampleInputEmail2\" placeholder=\"jane.doe@example.com\">
-        </div>
-        <div class=\"form-group\">
-          <label for=\"tel\">Telephone</label>
-          <input type=\"tel\" class=\"form-control\" id=\"exampleInputName2\" placeholder=\"Jane Doe\">
+     <form class=\"form-horizontal\">
+      <div class=\"form-group\">
+          <label for=\"nom\">Nom</label>
+          <input type=\"text\" class=\"form-control\" id=\"exampleInputName2\" placeholder=\"Jane Doe\">
       </div>
       <div class=\"form-group\">
-          <label for=\"cp\">Code Postale</label>
-          <input type=\"number\" class=\"form-control\" id=\"exampleInputName2\" placeholder=\"Jane Doe\">
+          <label for=\"Prenom\">Prenom</label>
+          <input type=\"text\" class=\"form-control\" id=\"exampleInputName2\" placeholder=\"Jane Doe\">
       </div>
-      <button type=\"submit\" class=\"btn btn-default\">Pré inscription</button>
-  </form>
+      <div class=\"form-group\">
+        <label for=\"email\">Email</label>
+        <input type=\"email\" class=\"form-control\" id=\"exampleInputEmail2\" placeholder=\"jane.doe@example.com\">
+    </div>
+    <div class=\"form-group\">
+      <label for=\"tel\">Telephone</label>
+      <input type=\"tel\" class=\"form-control\" id=\"exampleInputName2\" placeholder=\"Jane Doe\">
+  </div>
+  <div class=\"form-group\">
+      <label for=\"cp\">Code Postale</label>
+      <input type=\"number\" class=\"form-control\" id=\"exampleInputName2\" placeholder=\"Jane Doe\">
+  </div>
+  <button type=\"submit\" class=\"btn btn-default\">Pré inscription</button>
+</form>
 </div>
 <div class=\"col-md-6\">
-    <img id=\"mapfake\" src=\"http://www.shantee.net/wp-content/uploads/2016/06/google-maps.jpg\" alt=\"\">
+    <div class=\"map\">
+        {% component 'map' %}
+    </div>
 </div>
 </div>", "/home/simplon/exos/install-master/themes/demo/pages/events.htm", "");
     }
