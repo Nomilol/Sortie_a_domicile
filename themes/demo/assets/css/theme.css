@@ -446,6 +446,76 @@
 .navbar-collapse:not(.in):not(.collapsing) .navbar-nav li > a:hover:after {
   background: #e67e22;
 }
-body {
-  padding-top: 70px;
+
+
+.head {
+
+  position:relative;
+  padding:0;
+  margin:0;
+  background-color: #009789;
+  width: 100%;
+  height: 6em;
+  text-align: center;
+}
+.headselect {
+  padding:0;
+  margin:0;
+  background-color: white;
+  width: 100%;
+  /*height: 4em;*/
+  display: inline-block;
+  display:flex;
+  justify-content:space-between;
+  margin-bottom:3em;
+}
+.headselect h4 {
+  color:black;
+
+  margin-right:2em;
+  /**/
+}
+
+.headh1 {
+
+  margin-right: auto;
+  margin-left: auto;
+  display: inline-block;
+  padding-top: 1%;
+  color:white;
+}
+.headimg {
+  float: left;
+}
+.footerContact{
+
+  background-color: #009789;
+  height:10em;
+  width: 100%;
+  display: inline-block;
+  display:flex;
+  justify-content:space-between;
+}
+.Newsletter h2{
+  color :black
+  ;
+}
+
+.footerContact h4,a {
+
+  color:white;
+  margin-left:6em;
+  margin-right:6em;
+  margin-top: 3em;
+}
+
+.entente h4{
+margin-right: 6em;
+  margin-top: 6em;
+  color:white;
+}
+.logo i{
+  margin-top: 2em;
+  color: white;
+
 }

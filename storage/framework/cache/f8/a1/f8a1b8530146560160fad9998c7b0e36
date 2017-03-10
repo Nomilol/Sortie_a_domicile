@@ -1,24 +1,34 @@
-1489069625a:1:{s:10:"layout.htm";a:6:{s:8:"fileName";s:10:"layout.htm";s:7:"content";s:144:"==
+1489134298a:1:{s:10:"layout.htm";a:6:{s:8:"fileName";s:10:"layout.htm";s:7:"content";s:570:"==
 <!doctype html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <title>Document</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="icon" type="image/png" href="{{ 'assets/images/october.png'|theme }}">
+        <link href="{{ 'assets/css/vendor.css'|theme }}" rel="stylesheet">
+        <link href="{{ 'assets/css/theme.css'|theme }}" rel="stylesheet">
+        {% styles %}
 </head>
 <body>
+    {% partial 'header' %}
 
-
-  
+    {% partial 'footer' %}
 </body>
-</html>";s:5:"mtime";i:1489069018;s:6:"markup";s:141:"<!doctype html>
+</html>";s:5:"mtime";i:1489074583;s:6:"markup";s:567:"<!doctype html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <title>Document</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="icon" type="image/png" href="{{ 'assets/images/october.png'|theme }}">
+        <link href="{{ 'assets/css/vendor.css'|theme }}" rel="stylesheet">
+        <link href="{{ 'assets/css/theme.css'|theme }}" rel="stylesheet">
+        {% styles %}
 </head>
 <body>
+    {% partial 'header' %}
 
-
-  
+    {% partial 'footer' %}
 </body>
 </html>";s:4:"code";N;s:17:"_PARSER_ERROR_INI";s:0:"";}}

@@ -22,10 +22,11 @@ class __TwigTemplate_3cfd9da114be87339620366638d8527b6971e3f560dffdfaf0982645322
     <meta charset=\"UTF-8\">
     <title>Document</title>
     <link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/css/bootstrap.min.css\">
+    
 </head>
 <body>
 
-
+    
 
 </body>
 </html>";
@@ -57,10 +58,11 @@ class __TwigTemplate_3cfd9da114be87339620366638d8527b6971e3f560dffdfaf0982645322
     <meta charset=\"UTF-8\">
     <title>Document</title>
     <link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/css/bootstrap.min.css\">
+    
 </head>
 <body>
 
-
+    
 
 </body>
 </html>", "/home/axell/projetSAD/install-master/themes/demo/pages/accueil.htm", "");

@@ -1,4 +1,4 @@
-1489069607a:1:{s:11:"accueil.htm";a:9:{s:8:"fileName";s:11:"accueil.htm";s:7:"content";s:338:"title = "Accueil"
+1489134284a:1:{s:11:"accueil.htm";a:9:{s:8:"fileName";s:11:"accueil.htm";s:7:"content";s:348:"title = "Accueil"
 url = "/accueil"
 layout = "layout"
 is_hidden = 0
@@ -9,22 +9,24 @@ is_hidden = 0
     <meta charset="UTF-8">
     <title>Document</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/css/bootstrap.min.css">
+    
 </head>
 <body>
 
-
+    
 
 </body>
-</html>";s:5:"mtime";i:1489069006;s:6:"markup";s:268:"<!doctype html>
+</html>";s:5:"mtime";i:1489074495;s:6:"markup";s:278:"<!doctype html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <title>Document</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/css/bootstrap.min.css">
+    
 </head>
 <body>
 
-
+    
 
 </body>
 </html>";s:4:"code";N;s:5:"title";s:7:"Accueil";s:3:"url";s:8:"/accueil";s:6:"layout";s:6:"layout";s:9:"is_hidden";s:1:"0";}}
