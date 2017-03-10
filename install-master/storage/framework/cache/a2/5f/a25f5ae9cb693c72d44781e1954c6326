@@ -1,0 +1,37 @@
+1489151665a:1:{s:15:"site/footer.htm";a:5:{s:8:"fileName";s:15:"site/footer.htm";s:7:"content";s:411:"<div class="footerContact">
+	<div class="Newsletter">
+		<h2>Inscription Newsletter</h2>
+		<form action="">
+			<input type="text">
+			<input type="submit">
+		</form>
+	</div>
+	<div class="entente">
+
+		<h4>Made by Simplon& Caroline Lamorthe</h4>
+		
+	</div>
+	<div class="logo">    
+		<a href="https://www.facebook.com/sortiesadomicile/"><i class="fa fa-facebook fa-2x"></i></a>	
+
+	</div>
+</div>
+
+";s:5:"mtime";i:1489151044;s:6:"markup";s:407:"<div class="footerContact">
+	<div class="Newsletter">
+		<h2>Inscription Newsletter</h2>
+		<form action="">
+			<input type="text">
+			<input type="submit">
+		</form>
+	</div>
+	<div class="entente">
+
+		<h4>Made by Simplon& Caroline Lamorthe</h4>
+		
+	</div>
+	<div class="logo">    
+		<a href="https://www.facebook.com/sortiesadomicile/"><i class="fa fa-facebook fa-2x"></i></a>	
+
+	</div>
+</div>";s:4:"code";N;}}
