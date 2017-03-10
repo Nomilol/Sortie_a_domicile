@@ -56,7 +56,7 @@ return [
             'driver'    => 'mysql',
             'host'      => 'localhost',
             'port'      => '3333',
-            'database'  => 'sorties_a_domicile',
+            'database'  => 'sad',
             'username'  => 'root',
             'password'  => 'root',
             'charset'   => 'utf8',
