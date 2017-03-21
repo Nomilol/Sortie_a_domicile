@@ -1,11 +1,8 @@
-1489488962a:1:{s:8:"home.htm";a:7:{s:8:"fileName";s:8:"home.htm";s:7:"content";s:122:"[viewBag]
+1489748242a:1:{s:8:"home.htm";a:7:{s:8:"fileName";s:8:"home.htm";s:7:"content";s:153:"[viewBag]
 title = "home"
 url = "/home"
 layout = "default"
 is_hidden = 0
 navigation_hidden = 0
 ==
-
-
-{% content 'events' %}
-";s:5:"mtime";i:1489488358;s:6:"markup";s:22:"{% content 'events' %}";s:4:"code";N;s:7:"viewBag";a:5:{s:5:"title";s:4:"home";s:3:"url";s:5:"/home";s:6:"layout";s:7:"default";s:9:"is_hidden";s:1:"0";s:17:"navigation_hidden";s:1:"0";}s:12:"parsedMarkup";s:22:"{% content 'events' %}";}}
+<p>{% partial 'site/header' %} {% content'events' %}</p>";s:5:"mtime";i:1489741898;s:6:"markup";s:56:"<p>{% partial 'site/header' %} {% content'events' %}</p>";s:4:"code";N;s:7:"viewBag";a:5:{s:5:"title";s:4:"home";s:3:"url";s:5:"/home";s:6:"layout";s:7:"default";s:9:"is_hidden";s:1:"0";s:17:"navigation_hidden";s:1:"0";}s:12:"parsedMarkup";s:56:"<p>{% partial 'site/header' %} {% content'events' %}</p>";}}

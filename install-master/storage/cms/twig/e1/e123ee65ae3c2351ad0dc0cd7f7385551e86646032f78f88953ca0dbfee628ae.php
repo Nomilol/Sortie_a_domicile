@@ -21,8 +21,8 @@ class __TwigTemplate_51ac75ec8e4841be1c0bd94172571bdb7a77407e8f509fd6909a7a5421c
 <img class=\"headimg\"  src=\"http://resizer.gandi.ws/gandi81403/image/logo_1.jpg?w=960\" alt=\"\">
 </div>
 <div class=\"headselect\">
-<a href=\"/home\"><h4>Home</h4></a>
-<a href=\"/Apropos\"><h4>A propos</h4></a>
+<a href=\"/\"><h4>Home</h4></a>
+<a href=\"/propos\"><h4>A propos</h4></a>
 <a href=\"/contact\"><h4>Contact</h4></a>
 </div>";
     }
@@ -52,8 +52,8 @@ class __TwigTemplate_51ac75ec8e4841be1c0bd94172571bdb7a77407e8f509fd6909a7a5421c
 <img class=\"headimg\"  src=\"http://resizer.gandi.ws/gandi81403/image/logo_1.jpg?w=960\" alt=\"\">
 </div>
 <div class=\"headselect\">
-<a href=\"/home\"><h4>Home</h4></a>
-<a href=\"/Apropos\"><h4>A propos</h4></a>
+<a href=\"/\"><h4>Home</h4></a>
+<a href=\"/propos\"><h4>A propos</h4></a>
 <a href=\"/contact\"><h4>Contact</h4></a>
 </div>", "/home/simplon/Documents/SortieAdom/install-master/themes/demo/partials/site/header.htm", "");
     }

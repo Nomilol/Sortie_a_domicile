@@ -1,5 +1,75 @@
-1489487948a:1:{s:11:"contact.htm";a:8:{s:8:"fileName";s:11:"contact.htm";s:7:"content";s:72:"title = "contact"
+1489748242a:1:{s:11:"contact.htm";a:9:{s:8:"fileName";s:11:"contact.htm";s:7:"content";s:1351:"title = "contact"
 url = "/contact"
+layout = "default"
 is_hidden = 0
 ==
-<p>dffffffffffff</p>";s:5:"mtime";i:1489144449;s:6:"markup";s:20:"<p>dffffffffffff</p>";s:4:"code";N;s:5:"title";s:7:"contact";s:3:"url";s:8:"/contact";s:9:"is_hidden";s:1:"0";}}
+
+
+
+<div class="col-md-offset-1">
+  
+    <div class="container">
+    <h2 class="col-md-offset-4">Contactez nous!</h2>
+    <form method="post" class="well col-md-10">
+    <div class="form-group">
+        <label class="control-label" for="nom">Nom:</label>
+        <input type="text" class="form-control" id="nom" name="nom" required="required">    
+    </div>
+        
+   <div class="form-group">
+        <label class="control-label" for="prenom">Prenom:</label>
+        <input type="text" class="form-control" id="prenom" name="prenom" required="required">  
+    </div>
+        
+    <div class="form-group">
+        <label class="control-label" for="email">Email:</label>
+        <input type="email" class="form-control" id="email" name="email" required="required">   
+    </div>
+        
+    <div class="form-group">
+        <label class="control-label" for="numero">Numero:</label>
+        <input type="number" class="form-control" id="numero" name="numero" required="required">    
+    </div>
+    <div class="form-group">
+    <label class="control-label" for="message">Message:</label>
+    <textarea class="form-control" id="message" name="message"></textarea>
+    <button type="button" class="btn btn-primary">Primary</button>
+    
+        
+    </form>
+    </div>
+</div>
+</div>";s:5:"mtime";i:1489659328;s:6:"markup";s:1277:"<div class="col-md-offset-1">
+  
+    <div class="container">
+    <h2 class="col-md-offset-4">Contactez nous!</h2>
+    <form method="post" class="well col-md-10">
+    <div class="form-group">
+        <label class="control-label" for="nom">Nom:</label>
+        <input type="text" class="form-control" id="nom" name="nom" required="required">    
+    </div>
+        
+   <div class="form-group">
+        <label class="control-label" for="prenom">Prenom:</label>
+        <input type="text" class="form-control" id="prenom" name="prenom" required="required">  
+    </div>
+        
+    <div class="form-group">
+        <label class="control-label" for="email">Email:</label>
+        <input type="email" class="form-control" id="email" name="email" required="required">   
+    </div>
+        
+    <div class="form-group">
+        <label class="control-label" for="numero">Numero:</label>
+        <input type="number" class="form-control" id="numero" name="numero" required="required">    
+    </div>
+    <div class="form-group">
+    <label class="control-label" for="message">Message:</label>
+    <textarea class="form-control" id="message" name="message"></textarea>
+    <button type="button" class="btn btn-primary">Primary</button>
+    
+        
+    </form>
+    </div>
+</div>
+</div>";s:4:"code";N;s:5:"title";s:7:"contact";s:3:"url";s:8:"/contact";s:6:"layout";s:7:"default";s:9:"is_hidden";s:1:"0";}}
